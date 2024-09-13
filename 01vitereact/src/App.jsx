@@ -1,13 +1,14 @@
-import { useState } from 'react'
 
+import Vim from "./vim";
 function App() {
-  
-
+  const username = "constant";  
   return (
     <>
-      <h1>vite+react || bv</h1>
+      <Vim />
+      <div>Username: {username}</div> 
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
