@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { ProductOverviewOne } from './ProductOverviewOne';
+import { ProductOverviewOne } from '../card/ProductOverviewOne';
 import './App.css'
-import { ProductThree } from './ProductThree';
+import { ProductThree } from '../card/ProductThree';
 
 function App() {
   const [count, setCount] = useState(0);
