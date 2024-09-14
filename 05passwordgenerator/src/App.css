@@ -1,0 +1,51 @@
+/* Ensure the body takes full width and height */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5; /* Optional background color */
+  }
+  
+  /* Container for password generator */
+  .password-generator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    width: 100%;
+    padding: 0 15px; /* Some padding to prevent it from touching the screen edges on small screens */
+    box-sizing: border-box;
+  }
+  
+  /* Password generator box */
+  .password-generator {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Limit the maximum width */
+    width: 100%; /* Responsive to screen size */
+  }
+  
+  /* Add transitions for buttons and inputs */
+  button {
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #805ad5;
+  }
+  
+  button.copied {
+    background-color: #48bb78; /* Green background on copy */
+    color: white;
+  }
+  
+  /* Add some responsiveness to the elements */
+  input[type="range"] {
+    width: 100%;
+  }
+  
