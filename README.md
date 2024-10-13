@@ -5,7 +5,7 @@ This repository contains multiple React projects that showcase various concepts 
 
 ## Projects Overview
 
-1. **01basicreact**: A simple React project demonstrating how to pass a variable name as props.
+1. **01basicreact**: A simple React project setup with create react-app
 2. **01vitereact**: A React project set up with Vite, demonstrating the faster build times and improved developer experience using Vite bundler.
 3. **02counter**: A basic counter application built with React.
 4. **03tailwindprops**: An example project where React props are used along with Tailwind CSS for styling.
